@@ -1,0 +1,16 @@
+{
+  "name": "program-summary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coding": "nodemon coding.ts",
+    "preview-view": "tsc --watch [案例下的ts文件] [后通过浏览器访问案例下的html文件]"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  }
+}
